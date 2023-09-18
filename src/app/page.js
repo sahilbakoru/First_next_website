@@ -26,7 +26,7 @@ export default function Home() {
         }}
       >
         <div style={{ fontSize: "400%" }}>Projects</div>
-        <ProjectClick route={'/about'} text={'View Projects'}/>
+        <ProjectClick route={'/projects'} text={'View Projects'}/>
       </div>
       <div
         style={{
