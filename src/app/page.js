@@ -2,9 +2,11 @@ import "./globals.css";
 import { DM_Serif_Display } from "next/font/google";
 import ProjectClick from "./ProjectClick";
 const inter = DM_Serif_Display({ weight: "400", subsets: ["latin"] });
+
 export default function Home() {
   return (
     <main className={inter.className}>
+
       <div
         style={{
           textAlign: "center",
