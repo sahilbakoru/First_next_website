@@ -15,9 +15,9 @@ export default function Home() {
           paddingBottom: "10%",
         }}
       >
-        <div style={{ fontSize: "400%" }}>Sahil Bakoru</div>
-        <div style={{ fontSize: "400%" }}>is a</div>
-        <div style={{ fontSize: "400%" }}>developer.</div>
+        <div style={{ fontSize: "400%" }}>Welcome</div>
+        <div style={{ fontSize: "400%" }}>to</div>
+        <div style={{ fontSize: "400%" }}>Sahilbakoru.in</div>
       </div>
       <div
         style={{
