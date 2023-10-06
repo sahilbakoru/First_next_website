@@ -1,5 +1,6 @@
-import { DM_Serif_Display } from "next/font/google";
-const inter = DM_Serif_Display({ weight: "400", subsets: ["latin"] });
+import { Quicksand ,DM_Serif_Display} from "next/font/google";
+const inter = Quicksand({ weight: "400", subsets: ["latin"] });
+const outer = DM_Serif_Display({weight: "400", subsets: ["latin"]})
 import Image from "next/image";
 import NavBar from "../components/NavBar";
 export default function Projects() {
@@ -7,10 +8,12 @@ export default function Projects() {
 
   return (
     <main
-      style={{ marginLeft: "10%", marginRight: "10%", marginBottom: "10%" }}
+      style={{  marginBottom: "10%" }}
       className={inter.className}
     >
       <NavBar />
+
+      <div style={{marginLeft:'10%',marginRight:'10%'}}>
       <div
         style={{
           textAlign: "center",
@@ -18,7 +21,10 @@ export default function Projects() {
           paddingBottom: "15%",
         }}
       >
-        <div style={{ fontSize: "400%" }}>Projects</div>
+        <div style={{ fontSize: "400%" }}
+      className={outer.className}
+        
+        >Projects</div>
       </div>
 
       {/* <div
@@ -83,7 +89,7 @@ export default function Projects() {
             style={{ margin: "1%" }}
             width={1000}
                 height={700}
-            src={"/Frame 3.png"}
+            src={"/Frame3.png"}
             alt="img"
           />
         </div>
@@ -170,6 +176,7 @@ export default function Projects() {
           marginTop: "10%",
         }}
       />
+      </div>
     </main>
   );
 }

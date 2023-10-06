@@ -9,7 +9,7 @@ const NavBar = () => {
         <li className={styles.navItem}>
           {/* <Link href="/">Home</Link>
            */}
-           <ProjectClick route={'/'} text={'Home'}/>
+           <ProjectClick route={'/'} text={'Sahilbakoru.in'}/>
         </li>
        
         {/* Add more navigation items as needed */}
