@@ -5,12 +5,8 @@ const ProjectClick = ({route, text}) => {
   useEffect(()=>{
 
   },[])
-  const [state, setState] = useState(0)
 
-  const handleClick =()=>{
-    console.log("clicked", state)
-    setState(state+1)
-  }
+
   return (
     <>
     <Link href={route}>

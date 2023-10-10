@@ -3,6 +3,7 @@ const inter = Quicksand({ weight: "400", subsets: ["latin"] });
 const outer = DM_Serif_Display({ weight: "400", subsets: ["latin"] });
 import Image from "next/image";
 import NavBar from "../components/NavBar";
+import styles from '/src/app/Home.module.css'
 export default function Projects() {
   let PosImages = [{ img: "Frame1.png" }];
 
