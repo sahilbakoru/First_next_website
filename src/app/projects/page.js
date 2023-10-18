@@ -3,7 +3,7 @@ const inter = Quicksand({ weight: "400", subsets: ["latin"] });
 const outer = DM_Serif_Display({ weight: "400", subsets: ["latin"] });
 import Image from "next/image";
 import NavBar from "../components/NavBar";
-import styles from '/src/app/Home.module.css'
+
 export default function Projects() {
   let PosImages = [{ img: "Frame1.png" }];
 
@@ -29,6 +29,8 @@ export default function Projects() {
           border: "0.5px solid grey",
         }}
       /> */}
+
+
 
         <div style={{ fontSize: "200%", marginTop: "3%" }}>Verve POS</div>
 
@@ -61,7 +63,7 @@ export default function Projects() {
             inventory in real-time. Users can monitor stock levels, receive
             notifications for low stock items, and update product information.
           </div>
-          <div
+          {/* <div
             style={{ textAlign: "center", margin: "2%", position: "relative",width:'100%',aspectRatio:70/45 }}
           >
             <Image
@@ -71,7 +73,7 @@ export default function Projects() {
               src={"/Frame6.png"}
               alt="img"
             />
-          </div>
+          </div> */}
 
           <div style={{ fontSize: "150%", marginTop: "5%" }}>
             Product Catalog:
@@ -82,14 +84,14 @@ export default function Projects() {
             adding products to transactions.
           </div>
 
-          <div style={{ textAlign: "center", margin: "2%",position:'relative',width:'100%',aspectRatio:70/45 }}>
+          {/* <div style={{ textAlign: "center",position:'relative',width:'100%',aspectRatio:60/45 }}>
             <Image
               style={{ margin: "1%" }}
              fill
               src={"/Frame3.png"}
               alt="img"
             />
-          </div>
+          </div> */}
 
           <div style={{ fontSize: "150%", marginTop: "5%" }}>
             Reporting and Analytics:
@@ -100,14 +102,14 @@ export default function Projects() {
             business decisions.
           </div>
 
-          <div style={{ textAlign: "center", margin: "2%",position:'relative',width:'100%',aspectRatio:70/45 }}>
+          {/* <div style={{ textAlign: "center", margin: "2%",position:'relative',width:'100%',aspectRatio:70/45 }}>
             <Image
               style={{ margin: "1%" }}
               fill
               src={"/Frame4.png"}
               alt="img"
             />
-          </div>
+          </div> */}
 
           <div style={{ fontSize: "150%", marginTop: "5%" }}>
             Add New Products:
@@ -120,14 +122,14 @@ export default function Projects() {
             their barcodes.
           </div>
 
-          <div style={{ textAlign: "center", margin: "2%" ,position:'relative',width:'100%',aspectRatio:70/45}}>
+          {/* <div style={{ textAlign: "center", margin: "2%" ,position:'relative',width:'100%',aspectRatio:70/45}}>
             <Image
               style={{ margin: "1%" }}
               fill
               src={"/Frame2.png"}
               alt="img"
             />
-          </div>
+          </div> */}
 
           <div style={{ fontSize: "150%", marginTop: "5%" }}>
             Label Printing:
@@ -148,7 +150,7 @@ export default function Projects() {
             it easier to scan items during checkout and inventory management.
           </div>
 
-          <div style={{ textAlign: "center", margin: "2%",position:'relative',width:'100%',aspectRatio:70/45 }}>
+          {/* <div style={{ textAlign: "center", margin: "2%",position:'relative',width:'100%',aspectRatio:70/45 }}>
             <Image
               style={{ margin: "1%" }}
               fill
@@ -156,7 +158,7 @@ export default function Projects() {
               src={"/Frame5.png"}
               alt="img"
             />
-          </div>
+          </div> */}
 
           <div style={{ fontSize: "150%", marginTop: "5%" ,padding:'2%' }}>
             Overall, Verve POS app streamlines the sales process, improves

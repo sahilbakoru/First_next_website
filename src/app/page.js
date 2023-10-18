@@ -4,10 +4,13 @@ import ProjectClick from "./ProjectClick";
 const inter = DM_Serif_Display({ weight: "400", subsets: ["latin"] });
 import styles from "/src/app/Home.module.css";
 import Image from "next/image";
+import NavBar from "../app/components/NavBar";
 
 export default function Home() {
   return (
     <main className={inter.className}>
+      <NavBar />
+
       <div style={{ marginLeft: "10%", marginRight: "10%" }}>
         <div
           style={{
@@ -19,6 +22,8 @@ export default function Home() {
             alignItems: "center",
           }}
         >
+
+          
           <div className={styles.text}>Welcome ,</div>
           <br></br>
           <div className={styles.text}>I'm Sahil Bakoru </div>

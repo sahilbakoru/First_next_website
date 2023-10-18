@@ -7,9 +7,20 @@ const NavBar = () => {
     <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li className={styles.navItem}>
-          {/* <Link href="/">Home</Link>
-           */}
-           <ProjectClick route={'/'} text={'Sahilbakoru.in'}/>
+        <Link style={{ fontSize: "20px" }}  href="/">
+        <button
+    style={{
+      border: "none",
+      padding: "20px",
+      background: "rgba(232, 232, 232, 0.61)",
+      cursor: "pointer",
+    }}
+  >
+    <div style={{ fontSize: "20px" }}>Sahilbakoru.in</div>
+  </button>
+         </Link>
+          
+           {/* <ProjectClick route={'/'} text={'Sahilbakoru.in'}/> */}
         </li>
        
         {/* Add more navigation items as needed */}
