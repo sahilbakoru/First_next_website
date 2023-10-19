@@ -23,24 +23,20 @@ export default function Home() {
           }}
         >
 
-          
+
           <div className={styles.text}>Welcome ,</div>
           <br></br>
-          <div className={styles.text}>I'm Sahil Bakoru </div>
-          <div className={styles.text}>a digital virtuoso.</div>
-          <div className={styles.text}>Within the intricate </div>
-          <div className={styles.text}> tapestry of code,</div>
-          <div className={styles.text}>I craft elegant </div>
-          <div className={styles.text}>and sophisticated</div>
-          <div className={styles.text}>web and mobile </div>
-          <div className={styles.text}>experiences, </div>
-          <div className={styles.text}> fusing artistry </div>
-          <div className={styles.text}> with precision.</div>
-          <div className={styles.text}> sculpting digital </div>
-          <div className={styles.text}> wonders that meld</div>
-          <div className={styles.text}> the complexities </div>
-          <div className={styles.text}> of technology with </div>
-          <div className={styles.text}>the finesse of</div>
+          <div className={styles.text}>Sahil Bakoru </div>
+          <div className={styles.text}>is a full-stack </div>
+          <div className={styles.text}>software developer, </div>
+          <div className={styles.text}> meticulously</div>
+          <div className={styles.text}> crafting,</div>
+          <div className={styles.text}>designing, </div>
+          <div className={styles.text}> & innovating</div>
+          <div className={styles.text}>for the dynamic</div>
+          <div className={styles.text}>realms of mobile </div>
+          <div className={styles.text}> & web technology, </div>
+          <div className={styles.text}> with the finesse of </div>
           <div className={styles.text}> craftsmanship.</div>
         </div>
         <div
